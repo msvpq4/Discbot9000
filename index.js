@@ -83,7 +83,7 @@ bot.on("message", async message => {
 
     if (server.dispatcher) server.dispatcher.end();
 
-    message.channel.send("Song skipped by " + message.member");
+    message.channel.send("Song skipped by " + message.member);
 
     return;
   }
@@ -107,7 +107,7 @@ bot.on("message", async message => {
   }
 
   if(cmd === `${prefix}help` || cmd === `${prefix}HELP`){
-    return message.channel.send("**Commands** \n \n __Text:__    !will    !kmart    !mike    !boe    !computer    !doinks  \n \n
+    return message.channel.send("**Commands** \n \n __Text:__    !will    !kmart    !mike    !boe    !computer   \n \n
 	 __Pics:__    !giga    !old      !yikes     !baby    !think    !aaa    !sleep   \n \n 
 	__Gifs:__    !mm    !gachi\n \n
 	 __Music:__    !play <youtube link>    !skip    !stop");
