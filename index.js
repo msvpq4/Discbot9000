@@ -129,10 +129,6 @@ bot.on("message", async message => {
     return message.channel.send("<@83056338837442560> <:haHAA:256674642041765888>");
   }
 
-  if(cmd === `${prefix}computer` || cmd === `${prefix}COMPUTER`){
-    return message.channel.send("WillSpreadEm - 02/16/2017 man i forgot the computer(edited)");
-  }
-
 
   if(cmd === `${prefix}donation`){
     /*let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
